@@ -1,0 +1,108 @@
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --lightgold: #e4bd72;
+    --darkgold: #96754c;
+    --black: #000000;
+    --extra-color: #3d2b1f;
+    --white: #fff;
+}
+
+body{
+    margin: 0;
+    background-color: var(--extra-color);
+    color: var(--white); 
+    border: 2px solid var(--lightgold); 
+}
+
+nav a {
+    color: var(--white);
+}
+nav a:hover{
+    color: var(--lightgold);
+}
+nav{
+    background-color: var(--extra-color);
+    padding: 30px;
+}
+
+#landing-page{
+   background-image: url(../images/undraw_breaking_barriers_vnf3.svg);
+   background-size: contain ;
+   background-color: var(--darkgold);
+   background-repeat: no-repeat;
+   background-position: right;
+   min-height: 70vh;
+} 
+.landing-text{
+    text-align: start;
+    font-weight: bolder;
+    padding-left: 2em;
+    padding-top: 9em;
+    /*width: 44em;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);   */
+}
+
+
+/* Animation 
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 44em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+*/
+#about{
+    background-color: var(--darkgold);
+    margin: 2em;
+    text-align: justify;
+    padding: 2em;
+}
+#about h1{
+    text-align: center;
+}
+#services{
+    text-align: justify;
+    margin: 0 10em;
+}
+
+#services h1{
+    text-align: center;
+    margin-bottom: 1em;
+}
+.box{ 
+    background-color: var(--lightgold);
+    padding: 8px;
+}
+#what-she-said{
+    min-height: 40vh;
+}
+.testimony{
+    margin-top: 2em;
+    width: 550px;
+     padding: 1em;
+    line-height: 30px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    background-color:  var(--lightgold);
+    
+}
+form{
+    background-color: var(--darkgold);
+    padding: 2em;
+    margin-bottom: 2em;
+}
+footer{
+    background-color: var(--darkgold);
+    text-align: center;
+}
